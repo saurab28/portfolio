@@ -8,6 +8,7 @@ import profile from '../../assets/home-profile-img.jpg';
 const Home = () => {
   return (
     <div id="home" className='home'>
+      <h1>Home</h1>
       <img src={profile} alt="profile" height="350px" width="300px"/>
       <h1><span>I'm Kushal Mohith</span>, Shaping Tomorrow’s Tech Solutions @NIAT</h1>
       <div className='icons'>
